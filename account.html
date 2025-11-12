@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lazada Account Page</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #ffe4ec, #ffffff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .header p {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      padding: 0.6rem 1.5rem;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+      margin: 0 0.3rem;
+    }
+
+    .btn-pink {
+      background-color: #ff5c8d;
+      color: white;
+    }
+
+    .btn-pink:hover {
+      background-color: #ff3470;
+    }
+
+    .btn-outline {
+      border: 2px solid #ff5c8d;
+      background: none;
+      color: #ff5c8d;
+    }
+
+    .screenshot {
+      width: 100%;
+      max-width: 650px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <p>Log in for a chance at first-order benefits!</p>
+    <button class="btn btn-pink" id="loginBtn" onclick="window.open('login.html', 'popup', 'width=400,height=500')">Login</button>
+    <button class="btn btn-outline">Sign Up</button>
+  </div>
+
+  <img src="lazadascreenshot.jpg" alt="Lazada Account Page Screenshot" class="screenshot">
+
+</body>
+</html>
